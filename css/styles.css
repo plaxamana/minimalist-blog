@@ -54,6 +54,8 @@ a:focus {
     color: #1792d2;
     font-size: .75rem;
     margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
 }
 
 .article-title {
@@ -71,6 +73,8 @@ a:focus {
     color: #1792d2;
     text-decoration: none;
     font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 .article-read-more:hover,
@@ -97,7 +101,7 @@ a:focus {
 }
 
 .widget-title {
-    letter-spacing: .2em;
+    letter-spacing: 1px;
     line-height: 1.25em;
     font-weight: 700;
     font-size: 1em;
@@ -160,9 +164,9 @@ header {
 
 footer {
     background: #143774;
-    color: #FFF;
+    color: rgba(255,255,255,0.8);
     text-align: center;
-    padding: 1em 0;
+    padding: 2em 0;
     margin-top: 2em;
 }
 
